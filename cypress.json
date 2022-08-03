@@ -1,6 +1,7 @@
 {
     "baseUrl": "https://www.demoblaze.com/",
-    "apiUrl" : "",
+    "apiUrl" : "https://api.demoblaze.com/",
+    "testFiles": "**/*.{feature, features}",
     "defaultCommandTimeout": 5000,
     "viewportWidth": 1360,
     "viewportHeight": 790
