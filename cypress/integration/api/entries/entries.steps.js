@@ -54,7 +54,7 @@ Given('user logged in', () => {
     })
  })
 
- When('user {string} {string} to the cart', (operation, product) => {
+ When('user {string} {string} to/from the cart', (operation, product) => {
     let prod_id, id
     const urlResource = (operation == 'adds') ? 'addtocart' : 'deleteitem'
 
