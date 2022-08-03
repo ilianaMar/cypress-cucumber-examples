@@ -1,0 +1,7 @@
+{
+    "baseUrl": "https://www.demoblaze.com/",
+    "apiUrl" : "",
+    "defaultCommandTimeout": 5000,
+    "viewportWidth": 1360,
+    "viewportHeight": 790
+}

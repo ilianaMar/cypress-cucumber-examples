@@ -1,0 +1,31 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "description": "Cypress test examples",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open": "cypress open",
+    "cypress": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ilianaMar/cypressTask2.git"
+  },
+  "author": "Iliana Markova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ilianaMar/cypressTask2/issues"
+  },
+  "homepage": "https://github.com/ilianaMar/cypressTask2#readme",
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^7.3.0",
+    "cypress": "^9.7.0",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "cypress-xpath": "^2.0.1",
+    "eslint-plugin-cypress": "^2.12.1"
+  }
+}
