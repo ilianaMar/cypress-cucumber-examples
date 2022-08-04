@@ -2,6 +2,7 @@ class LeftMenu {
     constructor() {
         this.leftMenuId = '.list-group'
         this.leftMenuSubLinkId ='a#itemc'
+        this.aboutYouLinkId = 'a[data-target="#videoModal"]'
     }
 
     getLeftMenuText(menuText){
@@ -20,6 +21,12 @@ class LeftMenu {
             .find(this.leftMenuSubLinkId)
             .its('length').should('be.eql', count)
 
+    }
+
+    clickOnMainMenuItem(locator){
+        cy.get(locator)
+            .should('be.visible')
+            .click()
     }
 }
 
