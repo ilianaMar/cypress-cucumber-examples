@@ -3,6 +3,8 @@ class LeftMenu {
         this.leftMenuId = '.list-group'
         this.leftMenuSubLinkId ='a#itemc'
         this.aboutYouLinkId = 'a[data-target="#videoModal"]'
+        this.loginLinkId = 'a[data-target="#logInModal"]'
+        this.logoutLinkId = '#logout2'
     }
 
     getLeftMenuText(menuText){

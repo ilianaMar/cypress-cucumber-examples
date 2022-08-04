@@ -17,6 +17,14 @@ class Homepage {
                  })
             })
     }
+
+    clickOnProductFromList(index){
+        cy.get(this.productsTable)
+            .should('be.visible')
+            .find('div')
+            .eq(index)
+            .click()
+    }
 }
 
 export const homepage = new Homepage()

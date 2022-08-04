@@ -8,7 +8,7 @@ Given('user logged in', () => {
         url: `${apiUrl}login`,
         body :{
             username: loginCreds.username,
-            password: loginCreds.password
+            password: loginCreds.apiPassword
         },
         failOnStatusCode: false
     }).as('loginUser')
