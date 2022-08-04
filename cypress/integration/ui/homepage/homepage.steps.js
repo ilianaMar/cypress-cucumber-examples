@@ -1,5 +1,6 @@
 import { Given, When, Then } from 'cypress-cucumber-preprocessor/steps'
 import { leftMenu } from '../../../support/page-objects/components/leftMenu'
+import { header } from '../../../support/page-objects/components/header'
 import { homepage } from '../../../support/page-objects/pages/homepage'
 import { aboutYouPage } from '../../../support/page-objects/pages/aboutYouPage'
 
@@ -19,7 +20,7 @@ Then('user verifies that all products have a price', () => {
 
 
 When('user clicks on about you buttons', () => { 
-    leftMenu.clickOnMainMenuItem(leftMenu.aboutYouLinkId)
+    header.clickOnMainMenuItem(header.aboutYouLinkId)
 })
 
 Then('user verifies that video is paused', () => { 

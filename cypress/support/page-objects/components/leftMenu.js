@@ -24,12 +24,6 @@ class LeftMenu {
             .its('length').should('be.eql', count)
 
     }
-
-    clickOnMainMenuItem(locator){
-        cy.get(locator)
-            .should('be.visible')
-            .click()
-    }
 }
 
 export const leftMenu = new LeftMenu()

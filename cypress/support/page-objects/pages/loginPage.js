@@ -7,14 +7,14 @@ class LoginPage {
     }
 
     fillinInputField(locator, data){
-        cy.get(locator).should('be.visible').type(data)
+        cy.get(locator).should('be.visible').clear().type(data)
     }
 
     clickOnLoginButton(){
         cy.get(this.loginModalId)
             .should('be.visible')
             .find(this.loginButtonId)
-            .click()
+            .click({force: true})
     }
 }
 

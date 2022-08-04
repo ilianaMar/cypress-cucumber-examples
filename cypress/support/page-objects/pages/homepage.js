@@ -21,9 +21,13 @@ class Homepage {
     clickOnProductFromList(index){
         cy.get(this.productsTable)
             .should('be.visible')
-            .find('div')
+            .children()
             .eq(index)
-            .click()
+            .then((item) => {
+                cy.wrap(item).find('h4').click()
+            })
+
+        cy.url().should('contain', 'prod.html?idp')
     }
 }
 
