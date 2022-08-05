@@ -4,6 +4,7 @@
 - Install yarn - https://classic.yarnpkg.com/lang/en/docs/install/
 - Clone repo and in the same directory run **yarn install** to install all dependencies for a project
 - Create loginData.json in **cypress/fixtures** directory and follow sample **cypress/fixtures/loginData.json.dist** to add your credentials or you can use following test data :
+
         {
             "username": "issmqa@gmail.com", 
             "apiPassword": "MTIzNDU2", 
