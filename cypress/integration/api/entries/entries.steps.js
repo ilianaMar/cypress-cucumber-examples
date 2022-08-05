@@ -1,4 +1,4 @@
-import { Given,When, Then } from 'cypress-cucumber-preprocessor/steps'
+import { Given, When, Then } from 'cypress-cucumber-preprocessor/steps'
 const apiUrl = Cypress.config('apiUrl')
 
 Given('user requests {string} endpoint', (urlResource) => { 
