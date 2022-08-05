@@ -3,7 +3,7 @@
 ### Setup the project
 - Install yarn - https://classic.yarnpkg.com/lang/en/docs/install/
 - Clone repo and in the same directory run **yarn install** to install all dependencies for a project
-- Create loginData.json in **cypress/fixtures** directory and follow sample to add **cypress/fixtures/loginData.json.dist** to add your credentials or you can use following test data
+- Create loginData.json in **cypress/fixtures** directory and follow sample **cypress/fixtures/loginData.json.dist** to add your credentials or you can use following test data :
         {
             "username": "issmqa@gmail.com", 
             "apiPassword": "MTIzNDU2", 
@@ -11,8 +11,8 @@
         }
 
 ### Run tests
-- Run tests in headless mode run **yarn run cypress**
-- Run tests in cypress GUI run **yarn run cypress:open**
+- Run tests in headless mode execute **yarn run cypress**
+- Run tests in cypress GUI execute **yarn run cypress:open**
 
 ## Scope of project
 The scope of project is to demonstrate api and ui tests using cucumber and cypress
