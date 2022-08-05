@@ -6,3 +6,4 @@ cypress/screenshots
 cypress/results
 yarn.lock
 cypress/fixtures/loginData.json
+mochawesome-report
